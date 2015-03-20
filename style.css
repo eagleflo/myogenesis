@@ -1,0 +1,76 @@
+body {
+  background: rgb(52, 189, 197);
+  color: rgb(255, 255, 255);
+  font-family: Colfax, sans-serif;
+  font-size: 22px;
+  margin: 20px;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+#exercises,
+#setlists {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.button {
+  display: block;
+  width: 200px;
+  margin: 10px;
+  padding: 20px;
+  background: rgb(228, 100, 134);
+  text-align: center;
+  font-size: 22px;
+  cursor: pointer;
+  user-select: none;
+}
+
+#add-set {
+  margin: 20px;
+  width: 240px;
+  font-size: 22px;
+}
+
+#add-set label {
+  display: inline-block;
+  width: 120px;
+  margin-right: 20px;
+}
+
+#add-set input[type="number"] {
+  width: 100px;
+  font-size: 22px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+#add-set input[type="button"] {
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
+  background: rgb(245, 151, 122);
+  color: rgb(255, 255, 255);
+  border: 0;
+  font-size: 22px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.setlist {
+  margin-right: 20px;
+}
+
+.setlist p {
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.setlist ol {
+  margin-top: 10px;
+}
