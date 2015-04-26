@@ -8,7 +8,13 @@
   :plugins [[lein-cljsbuild "1.0.5"]
             [lein-figwheel "0.2.7"]]
   :source-paths ["src"]
-  :cljsbuild {:builds [{:source-paths ["src/myogenesis"]
-                        :compiler {:main myogenesis.core
-                                   :output-to "out/myogenesis.js"
-                                   :optimizations :none}}]})
+  :figwheel {:css-dirs ["resources/public/css"]
+             :nrepl-port 7888}
+  :cljsbuild {
+    :builds {
+      :development {:source-paths ["src/myogenesis"]
+                    :compiler {:main myogenesis.core
+                               :output-to "resources/public/js/myogenesis.js"
+                               :output-dir "resources/public/js/out"
+                               :asset-path "js/out"
+                               :optimizations :none}}}})
