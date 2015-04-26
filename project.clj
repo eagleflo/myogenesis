@@ -17,4 +17,5 @@
                                :output-to "resources/public/js/myogenesis.js"
                                :output-dir "resources/public/js/out"
                                :asset-path "js/out"
-                               :optimizations :none}}}})
+                               :optimizations :none
+                               :source-map true}}}})
