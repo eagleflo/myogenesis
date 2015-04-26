@@ -36,7 +36,8 @@
 (defonce reps {:name "Reps" :data (atom nil)})
 
 (defn select-exercise [exercise]
-  [:div.button {:on-click #(reset! current-exercise exercise)} exercise])
+  [:div {:class (str "button" (if (= @current-exercise exercise) " selected"))
+         :on-click #(reset! current-exercise exercise)} exercise])
 
 (defn input-row [{:keys [name data]}]
   [:div
