@@ -7,7 +7,7 @@
                  [figwheel "0.2.7"]]
   :plugins [[lein-cljsbuild "1.0.5"]
             [lein-figwheel "0.2.7"]]
-  :source-paths ["src/clj"]
+  :source-paths ["src"]
   :cljsbuild {:builds [{:source-paths ["src/myogenesis"]
                         :compiler {:main myogenesis.core
                                    :output-to "out/myogenesis.js"
