@@ -1,8 +1,6 @@
 (ns myogenesis.core
-  (:require [figwheel.client :as fw]
-            [reagent.core :as reagent :refer [atom]]))
+  (:require [reagent.core :as reagent :refer [atom]]))
 
-(fw/start)
 (enable-console-print!)
 (println "Hello, myogenesis!")
 

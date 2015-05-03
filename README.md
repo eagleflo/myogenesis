@@ -15,7 +15,7 @@ project` comes with many unnecessary bells & whistles.
 Development
 -----------
 
-Run `lein figwheel` and navigate to http://localhost:3449/.
+Run `lein figwheel` and open `index.html`.
 
 An instance of nREPL will be running in port 7888.
 
@@ -23,4 +23,4 @@ An instance of nREPL will be running in port 7888.
 Building
 --------
 
-Run `lein cljsbuild once`.
+Run `lein cljsbuild once production`.
