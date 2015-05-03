@@ -4,9 +4,9 @@
   :dependencies [[org.clojure/clojure "1.7.0-beta2"]
                  [org.clojure/clojurescript "0.0-3211"]
                  [reagent "0.5.0"]
-                 [figwheel "0.2.7"]]
+                 [figwheel "0.3.1"]]
   :plugins [[lein-cljsbuild "1.0.5"]
-            [lein-figwheel "0.2.7"]]
+            [lein-figwheel "0.3.1"]]
   :source-paths ["src"]
   :figwheel {:css-dirs ["resources/public/css"]
              :nrepl-port 7888}
