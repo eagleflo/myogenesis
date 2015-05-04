@@ -49,8 +49,9 @@
 
 (defn set-form [exercise]
   [:div#add-set
-   [input-row weight]
-   [input-row reps]
+   [:div#fields
+    [input-row weight]
+    [input-row reps]]
    [:input {:type "button" :value "Enter"
             :on-click #(add-set! exercise (:data weight) (:data reps))}]])
 

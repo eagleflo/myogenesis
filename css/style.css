@@ -11,6 +11,7 @@ h1 {
 }
 
 #exercises,
+#add-set,
 #setlists {
   display: -webkit-flex;
   display: flex;
@@ -24,9 +25,7 @@ h1 {
   margin: 10px;
   padding: 20px;
   background: rgb(228, 100, 134);
-  border: 1px solid rgb(228, 100, 134);
   text-align: center;
-  font-size: 22px;
   cursor: pointer;
   user-select: none;
 }
@@ -35,19 +34,19 @@ h1 {
   border: 1px solid rgb(255, 255, 0);
 }
 
-#add-set {
-  margin: 20px;
+#add-set #fields {
   width: 240px;
-  font-size: 22px;
+  margin: 10px;
 }
 
 #add-set label {
-  display: inline-block;
-  width: 120px;
-  margin-right: 20px;
+  float: left;
+  clear: left;
+  line-height: 36px;
 }
 
 #add-set input[type="number"] {
+  float: right;
   width: 100px;
   font-size: 22px;
   text-align: right;
@@ -55,12 +54,12 @@ h1 {
 }
 
 #add-set input[type="button"] {
-  width: 100%;
-  margin-top: 20px;
+  width: 242px;
+  margin: 10px;
   padding: 20px;
   background: rgb(245, 151, 122);
+  border: 1px solid rgb(245, 151, 122);
   color: rgb(255, 255, 255);
-  border: 0;
   font-size: 22px;
   cursor: pointer;
   user-select: none;
