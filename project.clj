@@ -7,7 +7,6 @@
                  [figwheel "0.3.1"]]
   :plugins [[lein-cljsbuild "1.0.5"]
             [lein-figwheel "0.3.1"]]
-  :source-paths ["src"]
   :clean-targets ^{:protect false} [:target-path "out"]
   :figwheel {:css-dirs ["css"]
              :nrepl-port 7888}
