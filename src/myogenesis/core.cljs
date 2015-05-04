@@ -45,7 +45,7 @@
             :on-change #(reset! data (-> % .-target .-value))}]])
 
 (defn add-set! [exercise weight reps]
-  (swap! workout #(update-in % [exercise] conj {:weight @weight :reps @reps})))
+  (swap! workout #(update-in % [exercise] concat [{:weight @weight :reps @reps}])))
 
 (defn set-form [exercise]
   [:div#add-set
