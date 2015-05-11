@@ -16,6 +16,7 @@
               :figwheel true
               :compiler {:main myogenesis.core
                          :output-to "out/myogenesis.js"
+                         :optimizations :none
                          :source-map true}}
              {:id "production"
               :source-paths ["src/myogenesis"]
