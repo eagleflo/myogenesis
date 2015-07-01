@@ -1,12 +1,12 @@
 (defproject myogenesis "0.1.0-SNAPSHOT"
   :description "Myogenesis, a fitness tracker"
   :url "https://eagleflow.fi/myogenesis/"
-  :dependencies [[org.clojure/clojure "1.7.0-beta2"]
-                 [org.clojure/clojurescript "0.0-3211"]
+  :dependencies [[org.clojure/clojure "1.7.0"]
+                 [org.clojure/clojurescript "0.0-3308"]
                  [reagent "0.5.0"]
-                 [figwheel "0.3.1"]]
-  :plugins [[lein-cljsbuild "1.0.5"]
-            [lein-figwheel "0.3.1"]]
+                 [figwheel "0.3.5"]]
+  :plugins [[lein-cljsbuild "1.0.6"]
+            [lein-figwheel "0.3.5"]]
   :clean-targets ^{:protect false} [:target-path "out"]
   :figwheel {:css-dirs ["css"]
              :nrepl-port 7888}
