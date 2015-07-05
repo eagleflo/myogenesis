@@ -4,9 +4,9 @@
   :dependencies [[org.clojure/clojure "1.7.0"]
                  [org.clojure/clojurescript "0.0-3308"]
                  [reagent "0.5.0"]
-                 [figwheel "0.3.5"]]
+                 [figwheel "0.3.7"]]
   :plugins [[lein-cljsbuild "1.0.6"]
-            [lein-figwheel "0.3.5"]]
+            [lein-figwheel "0.3.7"]]
   :clean-targets ^{:protect false} [:target-path "out"]
   :figwheel {:css-dirs ["css"]
              :nrepl-port 7888}
