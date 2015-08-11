@@ -2,7 +2,7 @@
   :description "Myogenesis, a fitness tracker"
   :url "https://eagleflow.fi/myogenesis/"
   :dependencies [[org.clojure/clojure "1.7.0"]
-                 [org.clojure/clojurescript "0.0-3308"]
+                 [org.clojure/clojurescript "1.7.107"]
                  [reagent "0.5.0"]
                  [figwheel "0.3.7"]]
   :plugins [[lein-cljsbuild "1.0.6"]
